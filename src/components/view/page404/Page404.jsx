@@ -63,7 +63,7 @@ const Page404 = () => {
           </div>
 
           <a
-            href="https://codepen.io/diogo_ml_gomes/"
+            onClick={() => window.history.back()}
             target="_blank"
             className="box__button"
           >
